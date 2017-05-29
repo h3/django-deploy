@@ -1,0 +1,24 @@
+django:
+    scret_key: ''
+
+databases:
+    default:
+        user: ''
+        name: ''
+        password: ''
+        host: 'mysql'
+        dependencies: ['other_db']
+
+    other_db:
+        user: ''
+        name: ''
+        password: ''
+        host: 'mysql'
+
+email:
+    host: 'smtp.example.com'
+    tls: true
+    port: 587
+    user: 'no-reply@example.com'
+    pass: ''
+
